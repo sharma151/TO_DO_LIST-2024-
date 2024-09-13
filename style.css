@@ -113,3 +113,7 @@ li button {
   border: 2px solid black;
   background-color: #3c3d37;
 }
+.right > ul {
+  position: relative;
+  left: 140px;
+}
