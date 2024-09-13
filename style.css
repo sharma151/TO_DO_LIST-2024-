@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy";
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.left {
+  height: 100%;
+  width: 70%;
+  border: 2px solid black;
+  background-color: #697565;
+}
+h1 {
+  display: grid;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 20px;
+}
+.form {
+  border: 2px solid black;
+  max-width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+  left: 250px;
+  top: 50px;
+}
+
+form > input {
+  height: 40px;
+  width: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Style for placeholder text */
+input::placeholder {
+  color: grey;
+  font-size: 16px;
+  font-style: italic;
+  opacity: 1;
+  padding-left: 5px;
+}
+
+/* Example for focus state: when the input is focused */
+input:focus::placeholder {
+  color: lightgrey;
+  font-style: normal;
+}
+
+button {
+  height: 40px;
+  width: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(86, 206, 253);
+  cursor: pointer;
+  border-radius: 5px;
+}
+ul {
+  border: 2px solid black;
+  width: max-content;
+  height: fit-content;
+  border-radius: 5px;
+  position: relative;
+  left: 250px;
+  top: 60px;
+}
+li {
+  list-style: none;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Style for the checkbox */
+li input[type="checkbox"] {
+  margin: 0px 10px 0px 20px;
+}
+
+/* Style for the task text (inside the span) */
+li span {
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 14px;
+}
+
+/* Style for the delete button */
+li button {
+  background-color: red;
+  color: white;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Example of a completed task style when the checkbox is checked */
+/* li input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  color: grey;
+} */
+.right {
+  width: 30%;
+  height: 100%;
+  border: 2px solid black;
+  background-color: #3c3d37;
+}
