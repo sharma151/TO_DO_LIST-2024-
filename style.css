@@ -102,7 +102,7 @@ li button {
   border-radius: 4px;
 }
 
-/* Example of a completed task style when the checkbox is checked */
+/*  completed task style when the checkbox is checked */
 /* li input[type="checkbox"]:checked + span {
   text-decoration: line-through;
   color: grey;
