@@ -86,7 +86,7 @@ li input[type="checkbox"] {
 /* Style for the task text (inside the span) */
 li span {
   font-size: 20px;
-  color: #333;
+  color: white;
   text-decoration: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding-top: 14px;
@@ -116,4 +116,8 @@ li button {
 .right > ul {
   position: relative;
   left: 140px;
+}
+
+#completedList li span {
+  padding: 5px 20px 5px 10px;
 }
