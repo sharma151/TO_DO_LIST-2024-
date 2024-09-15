@@ -62,7 +62,7 @@ button {
   border-radius: 5px;
 }
 ul {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: max-content;
   height: fit-content;
   border-radius: 5px;
